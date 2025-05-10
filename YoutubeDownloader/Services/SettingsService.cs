@@ -20,7 +20,7 @@ public partial class SettingsService()
     )
 {
     [ObservableProperty]
-    public partial bool IsUkraineSupportMessageEnabled { get; set; } = true;
+    public partial bool IsUkraineSupportMessageEnabled { get; set; } = false;
 
     [ObservableProperty]
     public partial ThemeVariant Theme { get; set; }
